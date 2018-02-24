@@ -515,7 +515,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 34469436}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 999262929}
+        m_MethodName: Answer4BufferingTeam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &34469436
@@ -1125,7 +1136,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 117344397}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 999262929}
+        m_MethodName: Answer1BufferingTeam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &117344397
@@ -2369,7 +2391,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Answer 2
+  m_Text: Answer2
 --- !u!222 &587280136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2580,7 +2602,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Answer 3
+  m_Text: Answer3
 --- !u!222 &650231863
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2962,7 +2984,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 760719463}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 999262929}
+        m_MethodName: Answer2BufferingTeam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &760719463
@@ -3611,7 +3644,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Answer 4
+  m_Text: Answer4
 --- !u!222 &846625846
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3685,7 +3718,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "De quelle couleur est Sonic le h\xE9risson ?"
+  m_Text: Question text
 --- !u!222 &870936892
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4180,18 +4213,27 @@ MonoBehaviour:
     score: 0
     bonus: 0
     correct_answer: 0
+    answer: 
   team2:
     score: 0
     bonus: 0
     correct_answer: 0
+    answer: 
   team3:
     score: 0
     bonus: 0
     correct_answer: 0
+    answer: 
   team4:
     score: 0
     bonus: 0
     correct_answer: 0
+    answer: 
+  question: {fileID: 870936891}
+  ans1: {fileID: 1779734823}
+  ans2: {fileID: 587280135}
+  ans3: {fileID: 650231862}
+  ans4: {fileID: 846625845}
 --- !u!224 &999262930
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5881,7 +5923,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1507291646}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 999262929}
+        m_MethodName: Answer3BufferingTeam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1507291646
@@ -6514,7 +6567,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Answer 1
+  m_Text: Answer1
 --- !u!222 &1779734824
 CanvasRenderer:
   m_ObjectHideFlags: 0
