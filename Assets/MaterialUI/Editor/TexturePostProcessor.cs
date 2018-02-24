@@ -25,7 +25,7 @@ namespace MaterialUI
 
         void OnPreprocessTexture()
         {
-
+      
             if (assetPath.Contains("GeneratedShadows"))
             {
                 TextureImporter importer = assetImporter as TextureImporter;

@@ -8,7 +8,8 @@ using System.Text;
 using System;
 
 public class GameManager : MonoBehaviour {
-    public List<string[]> questions_anwsers = new List<string[]>(6);
+      
+    public List<string[]> questions_anwsers = new List<string[]>();
     public Team team1;
     public Team team2;
     public Team team3;
@@ -47,12 +48,12 @@ public class GameManager : MonoBehaviour {
             sr.Close();
 
 
-            float timeLeft = 20.0f;
+            //float timeLeft = 20.0f;
 
-            timeLeft -= Time.deltaTime;
-            while (timeLeft > 0) {
+            //timeLeft -= Time.deltaTime;
+            //while (timeLeft > 0) {
 
-            }
+            //}
             //for (int i = 0; i < questions_anwsers.Count; i++)
             //{
 
